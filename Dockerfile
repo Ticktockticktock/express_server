@@ -1,7 +1,7 @@
 # Copyright (c) Luis171.
 # Distributed under the terms of the Modified BSD License.
 
-FROM node:16
+FROM node:18
 
 LABEL maintainer="luis171"
 
