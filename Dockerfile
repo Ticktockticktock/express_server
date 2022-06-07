@@ -1,5 +1,7 @@
 FROM node:16
-# Create app directory
+
+LABEL maintainer="luis171"
+
 WORKDIR /usr/src/app
 
 # Install app dependencies
@@ -14,6 +16,6 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 8080
+EXPOSE 8085
 
 CMD [ "node", "main_server.js" ]
