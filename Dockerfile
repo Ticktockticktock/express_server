@@ -3,8 +3,6 @@
 
 FROM node:16-alpine
 
-ENV NODE_VERSION 16.15.1
-
 LABEL maintainer="luis171"
 
 WORKDIR /usr/src/app
