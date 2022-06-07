@@ -1,4 +1,7 @@
-FROM node:16
+# Copyright (c) Luis171.
+# Distributed under the terms of the Modified BSD License.
+
+FROM amd64:node:16
 
 LABEL maintainer="luis171"
 
